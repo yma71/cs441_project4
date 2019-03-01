@@ -11,10 +11,10 @@ import CoreData
 
 class  CoreDataModel {
     
-    private let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    private let context = CoreDataStorage.sharedInstance.mainQueueContext
     
     private func saveContext() {
-        do { try context.save() } catch { print("can't save")}
+        CoreDataStorage.sharedInstance.saveContext(context)
     }
     
     func getNumbers() -> [Int] {
