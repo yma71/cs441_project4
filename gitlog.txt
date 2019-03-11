@@ -1,0 +1,49 @@
+commit 9f8d6d7cdf6a1e1c8f8644f3806648eb5a9663f7
+Author: 马演喆 <mayanzhe@mayanzhedeMac.local>
+Date:   Fri Mar 1 07:10:58 2019 -0800
+
+    p4
+
+ asd/asd.xcodeproj/project.pbxproj                  | 196 +++++++++++++++++++++
+ .../UserInterfaceState.xcuserstate                 | Bin 27681 -> 34143 bytes
+ .../xcschemes/xcschememanagement.plist             |   5 +
+ asd/asd/CoreDataModel.swift                        |   4 +-
+ asd/asd/CoreDataStorage.swift                      | 170 ++++++++++++++++++
+ asd/asd/asd.entitlements                           |  10 ++
+ asd/asdasd/Base.lproj/MainInterface.storyboard     |  55 ++++++
+ asd/asdasd/Info.plist                              |  31 ++++
+ asd/asdasd/TodayViewController.swift               |  33 ++++
+ asd/asdasd/asdasd.entitlements                     |  10 ++
+ 10 files changed, 512 insertions(+), 2 deletions(-)
+
+commit b9d8c5d88cd8515ed8e7b8966dd896f191b9fff9
+Author: 马演喆 <mayanzhe@mayanzhedeMac.local>
+Date:   Thu Feb 28 07:39:31 2019 -0800
+
+    p4
+
+ asd/asd.xcodeproj/project.pbxproj                  | 360 +++++++++++++++++++++
+ .../project.xcworkspace/contents.xcworkspacedata   |   7 +
+ .../xcshareddata/IDEWorkspaceChecks.plist          |   8 +
+ .../UserInterfaceState.xcuserstate                 | Bin 0 -> 27681 bytes
+ .../xcschemes/xcschememanagement.plist             |  14 +
+ asd/asd/AppDelegate.swift                          |  93 ++++++
+ .../AppIcon.appiconset/Contents.json               |  98 ++++++
+ asd/asd/Assets.xcassets/Contents.json              |   6 +
+ asd/asd/Base.lproj/LaunchScreen.storyboard         |  25 ++
+ asd/asd/Base.lproj/Main.storyboard                 |  75 +++++
+ asd/asd/CoreDataModel.swift                        |  40 +++
+ asd/asd/Info.plist                                 |  45 +++
+ asd/asd/ViewController.swift                       |  46 +++
+ asd/asd/asd.xcdatamodeld/.xccurrentversion         |   8 +
+ asd/asd/asd.xcdatamodeld/asd.xcdatamodel/contents  |   9 +
+ 15 files changed, 834 insertions(+)
+
+commit 01056be709fcc13ad6b1e0d8bee7ffb2fa00c8a3
+Author: yma71 <31296106+yma71@users.noreply.github.com>
+Date:   Thu Feb 28 06:24:49 2019 -0800
+
+    Initial commit
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
